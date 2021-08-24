@@ -33,7 +33,7 @@ Movie.prototype.render = function () {
   let tdImg = document.createElement('td');
   row.appendChild(tdImg);
   let img = document.createElement('img');
-  img.src = `img/${this.category}.png`;
+  img.src = `./img/${this.category}.png`;
   img.id = 'categoryImg';
   tdImg.appendChild(img);
 
