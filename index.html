@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Movie List</title>
+</head>
+<body>
+    <header>
+<h1>My Movie list</h1>
+    </header>
+    <main>
+<fieldset>
+     <legend>Movie List</legend>
+    <form id="movie" >
+        
+   
+        <label for="name" > Movie Name </label>
+        <input type="text" id="name" placeholder="movie name">
+        <select name="" id="category">
+
+        </select>
+
+        <label for="issueYear" >  Issue Yeare </label>
+        <input type="text" id="issueYear" placeholder=" issue year">
+        <div><input type="submit" value="Save" id="save">
+         <input type="button" value="Clear Ls" id="clear" onclick="clearData()"></div>
+        
+    </form>
+</fieldset>
+<table id='table'>
+
+</table>
+    </main>
+    <footer>
+All right reserved 2021 &copy; ASAC
+    </footer>
+</body>
+<script src="js/script.js"></script>
+</html>
