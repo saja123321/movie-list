@@ -12,6 +12,8 @@ form *{
     margin-left: auto;
     margin-bottom: auto;
     height: 30px;
+    font-size: 18px;
+font-weight: 600;
 }
 
 #categoryImg{
@@ -69,6 +71,6 @@ footer{
     height: 50px;
     right: 0;
     bottom: 0;
-    position: absolute;
+    position: fixed;
     width: 100%;
 }
